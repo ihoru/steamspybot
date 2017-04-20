@@ -32,7 +32,7 @@ phrase = match.group('phrase')
 
 try:
     previous_phrase = open(previous_phrase_cache_file, 'r').read()
-except FileExistsError:
+except FileNotFoundError:
     previous_phrase = ''
 if previous_phrase != phrase:
     file = open(previous_phrase_cache_file, 'w')
