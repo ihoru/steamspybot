@@ -1,8 +1,8 @@
 # steamspybot
 Bot to get info about person on steamcommunity.com
 
-Installation & start
-====================
+Installation & Launch
+=====================
 ```python
 virtualenv -p python3 ENV
 source ENV/bin/activate
