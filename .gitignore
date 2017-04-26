@@ -90,3 +90,5 @@ ENV/
 
 .idea/
 last_phrase.txt
+
+logs/crontab.log
